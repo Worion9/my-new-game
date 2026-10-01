@@ -4,7 +4,7 @@
     "cardRotation": 0,
     "customHelp": "The winner is the player who has units with a total power of 10 or more.",
     "cards": {
-        "dataUrl": "cards.json",
+        "dataUrl": "https://raw.githubusercontent.com/Worion9/my-new-game/main/cards.json",
         "cardBack": "",
         "version": 1
     },
