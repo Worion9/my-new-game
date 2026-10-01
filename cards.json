@@ -1,0 +1,1144 @@
+{
+    "card-1": {
+        "id": "card-1",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Scout"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Draw a card."
+                },
+                "cost": 0,
+                "power": 3,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Scout"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 3
+    },
+    "card-2": {
+        "id": "card-2",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Assassin"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Destroy target unit."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Assassin"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-3": {
+        "id": "card-3",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Necromancer"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Play a unit from your graveyard."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Necromancer"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-4": {
+        "id": "card-4",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Time Weaver"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "You may take an additional action."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Time Weaver"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-5": {
+        "id": "card-5",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Sacrificial Lamb"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Destroy one of your units."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Sacrificial Lamb"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-6": {
+        "id": "card-6",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Gambler"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Draw 3 cards, then discard 3 cards."
+                },
+                "cost": 0,
+                "power": 5,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Gambler"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 5
+    },
+    "card-7": {
+        "id": "card-7",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Recruiter"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Return one of your units to your hand and play it again."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Recruiter"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-8": {
+        "id": "card-8",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Illusionist"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Draw a card. If you discard me, play me instead without my effect."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Illusionist"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-9": {
+        "id": "card-9",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Meteor Strike"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Discard a card from your hand and destroy two units."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Meteor Strike"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-10": {
+        "id": "card-10",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Arcane Intellect"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Draw 2 cards. If you discard me, draw a card."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Arcane Intellect"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-11": {
+        "id": "card-11",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Banner of Courage"
+                },
+                "type": "Artifact",
+                "text": {
+                    "en": "All your units get +1 Power."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Banner of Courage"
+        },
+        "type": "Artifact",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-12": {
+        "id": "card-12",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Soulstone"
+                },
+                "type": "Artifact",
+                "text": {
+                    "en": "Draw a card. When your unit dies, you may destroy me instead."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Soulstone"
+        },
+        "type": "Artifact",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-13": {
+        "id": "card-13",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Mind Flayer"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Look at the opponent's hand. Choose a card from it and discard it."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Mind Flayer"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-14": {
+        "id": "card-14",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Interrogator"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "The opponent must discard a card."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+5"
+                }
+            }
+        },
+        "name": {
+            "en": "Interrogator"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-15": {
+        "id": "card-15",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Crippling Wave"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Weaken all opponent's units by 1."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Crippling Wave"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-16": {
+        "id": "card-16",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Spellcaster"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Play any spell from your deck."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Spellcaster"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-17": {
+        "id": "card-17",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Amulet of Power"
+                },
+                "type": "Artifact",
+                "text": {
+                    "en": "Whenever you play a spell, strengthen one of your units."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Amulet of Power"
+        },
+        "type": "Artifact",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-18": {
+        "id": "card-18",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Blessing"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Distribute 3 strengthen effects as you choose."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Blessing"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-19": {
+        "id": "card-19",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Inspiring Roar"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Strengthen all your units."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Inspiring Roar"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-20": {
+        "id": "card-20",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Discarder"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Discard a card from your hand."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Discarder"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-21": {
+        "id": "card-21",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Behemoth"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": ""
+                },
+                "cost": 0,
+                "power": 4,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Behemoth"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 4
+    },
+    "card-22": {
+        "id": "card-22",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Mirror Strike"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Deal damage to an opponent's unit equal to the power of your strongest unit."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Mirror Strike"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-23": {
+        "id": "card-23",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Curse Weaver"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Distribute 3 weaken effects as you choose."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Curse Weaver"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-24": {
+        "id": "card-24",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Kamikaze"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Destroy your unit and an opponent's unit."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Kamikaze"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-25": {
+        "id": "card-25",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Martyr"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "When I die, draw a card and take an additional action."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Martyr"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-26": {
+        "id": "card-26",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Grave Digger"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Remove any number of cards from your graveyard and strengthen me for each of them."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+5"
+                }
+            }
+        },
+        "name": {
+            "en": "Grave Digger"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-27": {
+        "id": "card-27",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Mana Addict"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "When you play a spell, strengthen me."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Mana Addict"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-28": {
+        "id": "card-28",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Relic Hunter"
+                },
+                "type": "Artifact",
+                "text": {
+                    "en": "Strengthen me for each artifact you control. When you play an artifact, strengthen me."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Relic Hunter"
+        },
+        "type": "Artifact",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-29": {
+        "id": "card-29",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Bloodthirsty Warrior"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "When you destroy an opponent's unit, strengthen me."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Bloodthirsty Warrior"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-30": {
+        "id": "card-30",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Hexer"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Choose a unit and weaken it. You may discard any number of cards from your hand to weaken it again for each card discarded."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Hexer"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-31": {
+        "id": "card-31",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Divine Shield"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "I cannot be destroyed or weakened."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Divine Shield"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-32": {
+        "id": "card-32",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Execute"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Destroy all weakened opponent units."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Execute"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-33": {
+        "id": "card-33",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Cleanse"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Remove all weaken effects from your units."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Cleanse"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-34": {
+        "id": "card-34",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Transmutation"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Weaken a unit, upgrade a unit, and draw a card."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Transmutation"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-35": {
+        "id": "card-35",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Exhaustion"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Weaken a unit. Take an additional action."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+5"
+                }
+            }
+        },
+        "name": {
+            "en": "Exhaustion"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-36": {
+        "id": "card-36",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Torturer"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Weaken one unit 4 times."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+4"
+                }
+            }
+        },
+        "name": {
+            "en": "Torturer"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-37": {
+        "id": "card-37",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Thief"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Discard a card from your hand. The opponent discards a random card from their hand."
+                },
+                "cost": 0,
+                "power": 2,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+3"
+                }
+            }
+        },
+        "name": {
+            "en": "Thief"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 2
+    },
+    "card-38": {
+        "id": "card-38",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Shatter"
+                },
+                "type": "Artifact",
+                "text": {
+                    "en": "Destroy an opponent's artifact."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Shatter"
+        },
+        "type": "Artifact",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-39": {
+        "id": "card-39",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Forge of Power"
+                },
+                "type": "Artifact",
+                "text": {
+                    "en": "Draw a card. Discard a card and exhaust me to strengthen a unit."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+5"
+                }
+            }
+        },
+        "name": {
+            "en": "Forge of Power"
+        },
+        "type": "Artifact",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-40": {
+        "id": "card-40",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Shrine of Weakness"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Draw a card. Discard a card and exhaust me to weaken a unit."
+                },
+                "cost": 0,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Shrine of Weakness"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        }
+    },
+    "card-41": {
+        "id": "card-41",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Mind Swap"
+                },
+                "type": "Spell",
+                "text": {
+                    "en": "Take all of the opponent's cards, then give them the same number of any cards."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+2"
+                }
+            }
+        },
+        "name": {
+            "en": "Mind Swap"
+        },
+        "type": "Spell",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    },
+    "card-42": {
+        "id": "card-42",
+        "face": {
+            "front": {
+                "name": {
+                    "en": "Bouncer"
+                },
+                "type": "Unit",
+                "text": {
+                    "en": "Return your unit and an opponent's unit to hand."
+                },
+                "cost": 0,
+                "power": 1,
+                "image": {
+                    "en": "https://placehold.co/400x600/png?text=Art+1"
+                }
+            }
+        },
+        "name": {
+            "en": "Bouncer"
+        },
+        "type": "Unit",
+        "cost": 0,
+        "_legal": {
+            "STD": true
+        },
+        "power": 1
+    }
+}

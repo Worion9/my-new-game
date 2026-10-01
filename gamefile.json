@@ -1,0 +1,101 @@
+{
+    "name": "New Card Game",
+    "menuBackgroundImage": "",
+    "cardRotation": 0,
+    "customHelp": "The winner is the player who has units with a total power of 10 or more.",
+    "cards": {
+        "dataUrl": "cards.json",
+        "cardBack": "",
+        "version": 1
+    },
+    "deckBuilding": {
+        "mainFilters": [
+            "type"
+        ],
+        "formats": [
+            {
+                "title": "Standard",
+                "legalityCode": "STD",
+                "gameplay": "Standard",
+                "deckRulesets": "Standard"
+            }
+        ],
+        "deckRulesets": {
+            "Standard": {
+                "checkCardLegality": true,
+                "general": {
+                    "min": 50,
+                    "max": 50,
+                    "maxPerCard": 4
+                }
+            }
+        }
+    },
+    "gameplay": {
+        "Standard": {
+            "countersStartingValues": [],
+            "mulligan": {
+                "startingHandSize": 5,
+                "triggeredByButton": false,
+                "mulliganCount": {
+                    "max": 1
+                },
+                "mulliganCycle": {
+                    "info": "Replace any number of cards.",
+                    "steps": [
+                        "toBottom",
+                        "draw",
+                        "shuffle"
+                    ],
+                    "selectionRange": {
+                        "min": 0,
+                        "max": 5
+                    }
+                }
+            },
+            "newTurn": {
+                "drawOnStart": false,
+                "drawPerTurn": 1
+            },
+            "beforeGameStart": {
+                "chooseAnotherStartingPlayer": true
+            },
+            "sections": {
+                "layout": {
+                    "direction": "column",
+                    "content": [
+                        {
+                            "section": "Field"
+                        },
+                        {
+                            "section": "Artifacts"
+                        }
+                    ]
+                },
+                "sectionsDict": {
+                    "Field": {
+                        "isHidden": "no",
+                        "height": "DEFAULT",
+                        "alignment": "CENTER",
+                        "displayedTitle": "Units",
+                        "logWhenPlayed": true,
+                        "noQuickActions": true
+                    },
+                    "Artifacts": {
+                        "isHidden": "no",
+                        "height": "DEFAULT",
+                        "alignment": "CENTER",
+                        "displayedTitle": "Artifacts",
+                        "logWhenPlayed": true,
+                        "noQuickActions": true
+                    }
+                },
+                "autoPlayFromHand": {
+                    "Unit": "Field",
+                    "Artifact": "Artifacts",
+                    "Spell": "Discard"
+                }
+            }
+        }
+    }
+}
